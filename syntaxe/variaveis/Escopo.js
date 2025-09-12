@@ -1,0 +1,1 @@
+// O escopo de bloco é o alcance de variaveis dentro de um codigo {tudo que esta dentro disso}
