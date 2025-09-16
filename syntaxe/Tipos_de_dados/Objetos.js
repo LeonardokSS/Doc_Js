@@ -16,3 +16,4 @@ console.log(pessoa.nome)
 console.log(pessoa.cpf)
 
 console.log(pessoa.idade)
+

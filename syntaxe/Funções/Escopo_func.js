@@ -2,8 +2,6 @@
 // Se as variáveis forem declaradas fora da função elas podem ser acessadas
 
 
-
-
 let fora = "estou fora";
 
 function exemplo(){
