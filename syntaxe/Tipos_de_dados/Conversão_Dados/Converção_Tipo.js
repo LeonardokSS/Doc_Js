@@ -22,6 +22,8 @@ let c = converterNum + a + b;
 
 console.log(c)
 
+console.log("2"*3)// 6
+
 
 // String
 

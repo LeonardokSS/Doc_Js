@@ -8,8 +8,9 @@ mostrarNome("Leo");
 
 
 // Podemos definir o valor dos parametros dentro da função
+let pegarnome = "Guilherme"
 
-function Nome(nome = "visitante"){
+function Nome(nome = pegarnome){
     console.log(`Olá, ${nome}`);
 };
 
