@@ -1,0 +1,29 @@
+{
+  "loja": "Tech Store",
+  "categoria": {
+    "nome": "Eletrônicos",
+    "produtos": [
+      {
+        "id": 1,
+        "nome": "Notebook Gamer",
+        "preco": 4500,
+        "estoque": 12,
+        "marca": "Acer"
+      },
+      {
+        "id": 2,
+        "nome": "Smartphone",
+        "preco": 2500,
+        "estoque": 30,
+        "marca": "Samsung"
+      },
+      {
+        "id": 3,
+        "nome": "Fone de Ouvido",
+        "preco": 350,
+        "estoque": 50,
+        "marca": "Sony"
+      }
+    ]
+  }
+}

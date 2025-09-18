@@ -6,6 +6,7 @@ let exemplo2 = 5;
 
 let resultadoEx = exemplo + exemplo2
 
+console.log(typeof resultadoEx)
 console.log(resultadoEx)
 
 // Para que possamos realizar a conversão precisamos escolher o mesmo tipo de variável para todos os exemplos
@@ -31,6 +32,7 @@ let numero = 456;
 
 let converterString = String(numero);
 
+console.log(typeof converterString)
 console.log(converterString);
 
 // Bool 
@@ -42,6 +44,12 @@ let TornarVerdadeiro = Boolean(falso)
 let TornarFalso = Boolean(verdadeiro)
 
 console.log(TornarVerdadeiro)
+
+console.log(typeof TornarVerdadeiro)
+
 console.log(TornarFalso)
+
+console.log(typeof TornarFalso)
+
 
 
