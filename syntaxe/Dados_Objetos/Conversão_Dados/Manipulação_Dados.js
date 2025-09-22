@@ -1,4 +1,4 @@
-//Normalmente o JS realiza a conversão de dados automaticamente, no exemplo a seguir ele irar transormar o numero em string para realizar a soma
+//Temos dois tipos de converção de dados, o implicito que o runtime ou o interpretador converte os dados sozinhos e o explicito, que converte de forma manual.
 
 let exemplo = "5";
 
@@ -13,13 +13,11 @@ console.log(resultadoEx)
 
 //Numeros
 
-let num = "10";
+let a = 10, b = "30";
 
-let converterNum = Number(num);
+let Conv = Number(b)
 
-let a = 10, b = 30;
-
-let c = converterNum + a + b;
+let c = a + Conv
 
 console.log(c)
 
@@ -33,7 +31,7 @@ let numero = 456;
 let converterString = String(numero);
 
 console.log(typeof converterString)
-console.log(converterString);
+
 
 // Bool 
 
