@@ -19,7 +19,13 @@ set.add('joao'); // não vai ser adicionado
 
 console.log(set.size);
 
+// Mostra como um set
 console.log(set);
+
+// Mostra elemento por elemento
+set.forEach((valor)=>{
+    console.log(valor)
+});
 
 
 //deletar itens
@@ -29,11 +35,4 @@ set.delete('joao');
 //existencia 
 
 console.log(set.has('joao'));
-
-//Pegar elementos para trabalhar com eles
-//O valor serve para receber o "valor" que o forEach vai atribuir, ele é usado como um parametro
-set.forEach((valor)=>{
-    console.log(valor)
-});
-
 
