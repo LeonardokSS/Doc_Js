@@ -11,6 +11,7 @@ const c = 12
 
 const d = "12"
 
+//True
 console.log(a==b)
-
+//True
 console.log(c==d)
