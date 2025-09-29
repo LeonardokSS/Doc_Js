@@ -14,9 +14,11 @@ map.set( 2, 30);
 
 map.set('resenha', true);
 
+console.log(map)
+
 //Acessar valores, APENAS PELA CHAVE (esquerda)
 
-console.log(map.get("joão"));
+console.log(map.get('resenha'));
 
 console.log(map.get('nome'));
 
