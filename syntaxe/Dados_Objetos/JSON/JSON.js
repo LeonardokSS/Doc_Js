@@ -21,7 +21,7 @@ console.log(conver)
 //Como acessar json para mostrar no html
 // O fetch é usado para realizar requisições HTTP, pegando dados de servidores ou de arquivos externos(JSON)
 
-const arquivo = fs.readFileSync('eletronicos.json','utf-8');
+const arquivo = fs.readFileSync('Doc_Js\syntaxe\Dados_Objetos\JSON\eletronicos.json','utf-8');
 
 const dado = JSON.parse(arquivo);
 
