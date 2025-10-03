@@ -24,6 +24,6 @@ console.log("Continue")
 
 
 for(let i = 0; i < 5; i++){
- if( i === 2) continue;
+ if( i === "ola") continue;
  console.log(i)
 }

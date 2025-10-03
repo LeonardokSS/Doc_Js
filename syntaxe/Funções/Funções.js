@@ -16,6 +16,7 @@ function Nome(nome = pegarnome){
 
 Nome();
 
+
 // Podemos tambem fazer com que os parametros sejam declarados, não dependendo do numero de variaveis
 function somarTudo(...numeros) {
   return numeros.reduce((total, n) => total + n, 0);
